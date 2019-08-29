@@ -8,6 +8,8 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import path from 'path';
+import {fork} from 'child_process';
 
 export default {
   name: "app",
